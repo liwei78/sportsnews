@@ -1,4 +1,6 @@
 sumeru.packages(
-    'news.js'
+    'news.js',
+    'nba.js',
+    'football.js'
 )
 

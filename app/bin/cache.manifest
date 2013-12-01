@@ -1,10 +1,12 @@
 CACHE MANIFEST 
-#version:1385604622277
+#version:1385913533945
 CACHE:
 sumeru.css
 sumeru.js
 app.js
+view/football.html
 view/itworks.html
+view/nba.html
 view/news.html
 NETWORK:
 *

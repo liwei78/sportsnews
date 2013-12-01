@@ -4,6 +4,6 @@ if(typeof process != 'undefined' && process.BAE){
         dbname : 'ZKJYiGdxPJEFmujGjqAt'
     });
     sumeru.config({
-        site_url : 'http://cloudaspidernews.duapp.com/' //with tailing slash
+        site_url : 'http://readnews.duapp.com/' //with tailing slash
     });
 }
