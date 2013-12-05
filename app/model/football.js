@@ -1,4 +1,4 @@
-Model.nba = function(exports){
+Model.football = function(exports){
     exports.config = {
         fields : [
             { name : 'topfbnews', type : 'text'}

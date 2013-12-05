@@ -63,14 +63,14 @@ function runnable(){
         method: 'GET',
 
         fetchUrl : function(){
-              return 'http://sports.baidu.com/';
+              return 'http://roll.sports.sina.com.cn/s_premierleague_all/5/index.shtml';
         },
         
         resolve : function(originData){
             decodeData = iconv.decode(originData,'gb2312');
 
-            // var topfbnewsRegex = /<h2>英超<\/h2>([\W\w]*?)<p class="more" style="position: absolute; top: 280px; width: 96%; text-align: right;"><a href="http:\/\/news.baidu.com\/n?cmd=4&amp;class=Yingchao&amp;pn=1" target="_blank">更多英超新闻&gt;&gt;<\/a><\/p>/;
-            var topfbnewsRegex = /<body>([\W\w]*?)<\/body>/;
+            var topfbnewsRegex = /<div class="d_list_txt" id="d_list">([\W\w]*?)<div class="pagebox">/;
+            // var topfbnewsRegex = /<body>([\W\w]*?)<\/body>/;
             var topfbnews = decodeData.match(topfbnewsRegex)[1];
 
             var resolved = {
